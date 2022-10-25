@@ -1,0 +1,41 @@
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.welcome-message {
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    vertical-align: middle;
+}
+
+.dictionary {
+    color: blue;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.form-control {
+    margin: auto;
+}
+
+#save-button {
+    margin-left: 40%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.output {
+    margin: auto;
+}
