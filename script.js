@@ -11,12 +11,13 @@ function search() {
     let found = false;
     for (let index = 0; index < dictionar.length; index++) {
         if (dictionar[index] == searchWord) {
-            document.getElementById('search-output-text').innerHTML = `Cuvantul "${searchWord}" exista in dictionar!`;
             found = true;
             break;
         }
     }
-    if (found == false) {
+    if (found == true) {
+        document.getElementById('search-output-text').innerHTML = `Cuvantul "${searchWord}" exista in dictionar!`;
+    } else {
         document.getElementById('search-output-text').innerHTML = `Cuvantul "${searchWord}" nu exista in dictionar!`;
     }
 }
